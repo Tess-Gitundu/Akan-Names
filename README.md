@@ -8,6 +8,8 @@
 * Git clone
 * Have fun while coding
 * No dependencies required.
+## BDD
+This application has been put up by breaking down the initial challenge and working the way up to finding a solution.
 ## Technologies Used
 * HTML
 * CSS
