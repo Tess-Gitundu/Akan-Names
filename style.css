@@ -4,5 +4,10 @@
     padding: 40px;
     margin: 50px;
     font-size: 100px;
-    color: rgb(255, 187, 15);
+    color: rgb(255, 67, 15);
+}
+.akan p {
+    text-align: center;
+    font-size: 170%;
+    margin: 50px;
 }
