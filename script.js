@@ -11,3 +11,8 @@ function akanName () {
     var month = parseInt(month);
     var date = parseInt(date);
     var day =  ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date )%7
+    if (male === true) {
+        alert("Your Akan name is ")
+    } else (female === true) {
+        alert("Your Akan name is ")
+    }
