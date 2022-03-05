@@ -5,5 +5,9 @@ function akanName () {
     var month = document.getElementById("month").value;
     var date = document.getElementById (date).value;
     var male = document.getElementById(male).checked;
-    var female = document.getElementById(female).checked
-}
+    var female = document.getElementById(female).checked;
+    var century = parseInt(year.slice(o,2));
+    var year = parseInt(year.slice(2,4));
+    var month = parseInt(month);
+    var date = parseInt(date);
+    var day =  ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date )%7
